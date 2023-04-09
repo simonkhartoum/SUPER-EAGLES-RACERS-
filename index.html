@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>super-eagle</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn2.louis.de/dynamic/bikedb/o_pad,w_300,h_300,ha_center,va_center,c_fff/aa.8c.0c.977.png"type = "image/x-icon">
+  </head>
+  <body>
+    <h1>>> SUPER EAGLE RACERS >></h1>
+    <h3>Best Bikes For The Best Riders!!</h3>
+    <div class="searchDiv">
+    <input type="text" id="search-input" placeholder="Search by Rider's name">
+    <button id="search-button">Search</button>
+    </div>
+    <div id="bike-list"></div>
+    <div class="adminheader">
+      <h1>THIS IS THE ADMIN SECTION !!</h1>
+      </div>
+          <section class="tableform">
+            <table class="table mt-3">
+              <thead>
+                <tr class="cont">
+                  <th scope="col">Id</th>
+                  <th scope="col">Image url</th>
+                  <th scope="col">Manufacturer </th>
+                  <th scope="col">Model</th>
+                  <th scope="col">Driver</th>
+                  <th scope="col">Mileage</th>
+                  <th scope="col">Appearance</th>
+                  <th scope="col">Price($)</th>
+                  <th scope="col">wins</th>
+                  <th scope="col">Delete</th>
+                </tr>
+              </thead>
+              <tbody id="table-body">        
+              </tbody>
+            </table>
+        </section>
+        <div class="past">
+          <h3>ADD A NEW BIKE + DETAILS USING THE FORM BELOW.</h3>
+        </div>
+        <form id="form">
+          <div class="mb-3">
+            <label for="image" class="form-label">image url</label>
+            <input type="url" class="form-control" id="image" required>
+          </div>
+          <div class="mb-3">
+            <label for="manufacturer" class="form-label">manufacturer</label>
+            <input type="text" class="form-control" id="manufacturer"required>
+          </div>
+          <div class="mb-3">
+            <label for="model" class="form-label">model</label>
+            <input type="text" class="form-control" id="model"required>
+          </div>
+          <div class="mb-3">
+            <label for="driver" class="form-label">drivers name</label>
+            <input type="text" class="form-control" id="driver"required>
+          </div>
+          <div class="mb-3">
+            <label for="mileage" class="form-label">mileage</label>
+            <input type="text" class="form-control" id="mileage"required>
+          </div>
+          <div class="mb-3">
+            <label for="appearance" class="form-label">appearance</label>
+            <input type="text" class="form-control" id="appearance"required>
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">price($)</label>
+            <input type="number" class="form-control" id="price"required>
+          </div>
+          <div class="mb-3">
+            <label for="wins" class="form-label">wins</label>
+            <input type="number" class="form-control" id="wins"required>
+          </div>
+          <div class="submitbutton">
+          <button id="submit" type="submit" class="btn-btn-primary">Submit</button>
+          </div>
+        </form>
+    <footer>
+      <p>Super Eagles Racers is a website dedicated to the passionate community of bike riders who seek adventure, thrill, and speed on the roads. Whether you are a seasoned biker or a newbie, our platform offers everything you need to elevate your biking experience to the next level. From the latest news and trends in the world of biking to expert tips and advice on maintenance and safety, we are your one-stop destination for all things biking. <br>
+
+        At Super Eagles Racers, we believe that biking is not just a hobby, it's a way of life. Our community of riders share a common passion for exploring the open road, pushing their limits, and enjoying the freedom that comes with the wind in their hair. Our platform brings together like-minded individuals who share this love for biking, providing a space to connect, exchange ideas, and share experiences. <br>
+        
+         Join our community of bikers today and experience the thrill of the ride like never before. <br> REMEMBER <br>Super Eagles Racer has got you covered.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
